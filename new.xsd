@@ -1,0 +1,7 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"><xsd:element name="sky_condition">
+		<xsd:complexType>
+			<xsd:attribute name="sky_cover" type="xsdd:string"/>
+			<xsd:attribute name="cloud_base_ft_agl" type="xsdd:int"/>
+			<xsd:attribute name="cloud_type" type="xsdd:string"/>
+		</xsd:complexType>
+	</xsd:element></xsd:schema>
